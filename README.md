@@ -24,3 +24,16 @@ This is written in markdown language.
 
 More information on GitHub Pages can be found [here](https://pages.github.com/)
 ![](Actuarial.gif)
+
+# Executive summary
+
+# Program design
+
+# Macro-economic, hazard and damage modelling
+
+# Pricing and cost
+
+# Risk and Risk mitigation
+
+# Conclusion
+
