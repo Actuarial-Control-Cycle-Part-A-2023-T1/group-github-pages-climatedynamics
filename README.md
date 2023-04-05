@@ -1,8 +1,8 @@
 
 # 2023 SOA Case Study Challenge - A Relocation Social Insurance Program
 
-<!--- [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/elzutNYu)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10712948) --->
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/elzutNYu)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10712948)
 
 
 _"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
@@ -31,14 +31,14 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 
 Our group is ClimateDynamics
 
-# Executive summary
+## Executive summary
 
-# Program design
+## Program design
 
 
-# Macro-economic, hazard and damage modelling
+## Macro-economic, hazard and damage modelling
 
-## Macro-economic variables modelling: 
+### Macro-economic variables modelling: 
 
 To take account into the effects of inflation and interest rates on property value and damage data, we build a time-series model to project the future inflation. For model selection, we split the historical inflation rates and interest rates into a training period (before Year 2010) and the validation period (after Year 2010). The model with the lowest validation Mean-Square-Error, which is ARIMA(1,1,0), is chosen as our best estimate for future inflaiton rates and interest rates. The other two models, namely AR(1) and the smoothing spline, are used to form our upper scenario (i.e., high inflation rate) and the lower scenario (i.e., low inflation rate), respecitvely. 
 
@@ -48,7 +48,7 @@ Projection of inflation rates          |  Projection of interest rates
 :-------------------------:|:-------------------------:
 ![image](Inflation_rates_projections.png)  |  ![image](InterestRate_projections.png)
 
-## Hazard and damage modelling:
+### Hazard and damage modelling:
 
 Frequency and severity of hazard loss have been modelled separately in our analysis. We have taken a standard approach and used Poisson regression to model hazard frequency since the count of hazard events is a discrete random variable. In particular we chose a Poisson GAM as it outper-
 formed the Poisson GLM with regards to AIC and BIC metrics.
@@ -64,9 +64,9 @@ Projected hazard events count          |  Projected climate risk index
 
 
 
-# Pricing and cost
+## Pricing and cost
 
-# Risk and Risk mitigation
+## Risk and Risk mitigation
 
-# Conclusion
+## Conclusion
 
