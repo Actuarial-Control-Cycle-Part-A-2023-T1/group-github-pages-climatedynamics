@@ -42,7 +42,21 @@ Projection of inflation rates          |  Projection of interest rates
 :-------------------------:|:-------------------------:
 ![image](Inflation_rates_projections.png)  |  ![image](InterestRate_projections.png)
 
-## Hazard modelling:
+## Hazard and damage modelling:
+
+Frequency and severity of hazard loss have been modelled separately in our analysis. We have taken a standard approach and used Poisson regression to model hazard frequency since the count of hazard events is a discrete random variable. In particular we chose a Poisson GAM as it outper-
+formed the Poisson GLM with regards to AIC and BIC metrics.
+
+For severity model we chose to model the damage ratio (the ratio of property damage to exposure) instead of the absolute value of property damage, as dollar value of property damage could be heavily influenced by the market value of the property rather than the inherent severity of the
+peril. To model the damage we fit a zero adjusted Beta distribution as the damage ratio varies between 0 and 1 and the distribution is highly non-symmetric. 
+
+The fitted frequency and damage models specified above are used to generate projections for future hazard events count and damage ratio. As per the figure below, Region 3 has the highest projected events count. To factor both frequency and severity into risk evaluation, we have developed a climate risk index, defined as the product of predicted events count and the damage ratio. Based on the climate risk index, Region 5 has the highest risk in all projected years.
+
+Projected hazard events count          |  Projected climate risk index
+:-------------------------:|:-------------------------:
+![image](Projected_Hazard_Events_count.png)  |  ![image](Projected_Hazard_risk_index.png)
+
+
 
 # Pricing and cost
 
