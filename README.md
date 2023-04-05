@@ -40,9 +40,14 @@ The projections of future inflation rates and interest rates are shown in the fo
 
 ![image](Inflation_rates_projections.png)
 
-![image](Interest_rates_projections.png)
+![image](InterestRate_projections.png)
 
 
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![image](Inflation_rates_projections.png)  |  ![image](InterestRate_projections.png)
+
+## Hazard modelling:
 
 # Pricing and cost
 
