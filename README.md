@@ -1,15 +1,10 @@
-[comment]: <> (This is a comment, it will not be included) 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/elzutNYu)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10712948)
-# Actuarial Theory and Practice A @ UNSW
+<!--- [![Review Assignment Due Date] (https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/elzutNYu) --->
+<!--- [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10712948) --->
 
-_"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
+<!--- _"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_ --->
 
----
+<!--- ### Congrats on completing the [2023 SOA Research Challenge](https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/)!
 
-### Congrats on completing the [2023 SOA Research Challenge](https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/)!
-
-Our group is ClimateDynamics
 
 > Now it's time to build your own website to showcase your work.  
 >To create a website on GitHub Pages to showcase your work is very easy.
@@ -19,12 +14,17 @@ This is written in markdown language.
 * Click [link](https://classroom.github.com/a/elzutNYu) to accept your group assignment.
 
 
-#### Follow the [guide doc](Doc1.pdf) to submit your work. 
----
+#### Follow the [guide doc](Doc1.pdf) to submit your work.  
+
 >Be creative! Feel free to link to embed your [data](hazard-event-data.csv), [code](sample-data-clean.ipynb), [image](unsw.png) here
 
 More information on GitHub Pages can be found [here](https://pages.github.com/)
-![](Actuarial.gif)
+![](Actuarial.gif) --->
+
+
+# 2023 SOA Case Study Challenge - A Relocation Social Insurance Program
+
+Our group is ClimateDynamics
 
 # Executive summary
 
