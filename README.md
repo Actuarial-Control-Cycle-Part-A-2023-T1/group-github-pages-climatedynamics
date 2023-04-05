@@ -29,7 +29,18 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 
 # Program design
 
+
 # Macro-economic, hazard and damage modelling
+
+## Macro-economic variables modelling: 
+
+To take account into the effects of inflation and interest rates on property value and damage data, we build a time-series model to project the future inflation. For model selection, we split the historical inflation rates and interest rates into a training period (before Year 2010) and the validation period (after Year 2010). The model with the lowest validation Mean-Square-Error, which is ARIMA(1,1,0), is chosen as our best estimate for future inflaiton rates and interest rates. The other two models, namely AR(1) and the smoothing spline, are used to form our upper scenario (i.e., high inflation rate) and the lower scenario (i.e., low inflation rate), respecitvely. 
+
+The projections of future inflation rates and interest rates are shown in the following two figures:  
+
+![image](Inflation_rates_projections.pdf)
+
+
 
 # Pricing and cost
 
