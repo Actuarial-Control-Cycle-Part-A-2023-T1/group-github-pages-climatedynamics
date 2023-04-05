@@ -38,7 +38,9 @@ To take account into the effects of inflation and interest rates on property val
 
 The projections of future inflation rates and interest rates are shown in the following two figures:  
 
-![image](Inflation_rates_projections.pdf)
+![image](Inflation_rates_projections.png)
+
+![image](Interest_rates_projections.png)
 
 
 
