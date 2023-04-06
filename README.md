@@ -1,11 +1,11 @@
 
 # 2023 SOA Case Study Challenge - A Relocation Social Insurance Program
 
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/elzutNYu)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10712948)
+<!--- [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-8d59dc4de5201274e310e4c54b9627a8934c3b88527886e3b421487c677d23eb.svg)](https://classroom.github.com/a/elzutNYu)
+[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10712948) -->
 
 
-_"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
+<!--- _"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
 
 ---
 
@@ -24,7 +24,7 @@ This is written in markdown language.
 >Be creative! Feel free to link to embed your [data](hazard-event-data.csv), [code](sample-data-clean.ipynb), [image](unsw.png) here
 
 More information on GitHub Pages can be found [here](https://pages.github.com/)
-![](Actuarial.gif)
+![](Actuarial.gif) -->
 
 
 
@@ -32,6 +32,12 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 Our group is ClimateDynamics
 
 ## Executive summary
+We aim to develop a social insurance program which can provide nationwide coverage against displacement due to natural perils in anticipation to the increasing frequency and severity of catastrophic climate events.
+
+The product is designed to be accessible to all, tailored to meet the diverse geographical risks presented by Storslysia's six regions. In our design we focus on accurately forecasting future events so that Storslysia's residents may be relocated promptly, minimising potential costs associated with accommodation, lost of personal effects and psychological pressure. Based on our results, we have found that the relocation program could substantially reduce the economic cost of property damages over the long-term horizon. Additionally, we are $90.69\%$ confident that the program cost will not exceed $10\%$ of the national GDP in any given year by weighting different climate and macro-economic scenarios. 
+
+
+
 
 ## Program design
 
