@@ -32,7 +32,7 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 ## Executive summary
 We aim to develop a social insurance program which can provide nationwide coverage against displacement due to natural perils in anticipation to the increasing frequency and severity of catastrophic climate events.
 
-The product is designed to be accessible to all, tailored to meet the diverse geographical risks presented by Storslysia's six regions. In our design we focus on accurately forecasting future events so that Storslysia's residents may be relocated promptly, minimising potential costs associated with accommodation, lost of personal effects and psychological pressure. Based on our results, we have found that the relocation program could substantially reduce the economic cost of property damages over the long-term horizon. Additionally, we are $90.69\%$ confident that the program cost will not exceed $10\%$ of the national GDP in any given year by weighting different climate and macro-economic scenarios. 
+The product is designed to be accessible to all, tailored to meet the diverse geographical risks presented by Storslysia's six regions. In our design we focus on accurately forecasting future events so that Storslysia's residents may be relocated promptly, minimising potential costs associated with accommodation, lost of personal effects and psychological pressure. Based on our results, we have found that the relocation program could substantially reduce the economic cost of property damages over the long-term horizon. Additionally, we are 90.69% confident that the program cost will not exceed 10% of the national GDP in any given year by weighting different climate and macro-economic scenarios. 
 
 
 
@@ -68,7 +68,7 @@ The social insurance program will cover 50% of the cost for new property, and th
 Cost reduction benefits resulting from planned relocation can be categorised into two types:
 
 - Relocation priorities and options: Geographical incentives are provided to affected parties to encourage  voluntary relocation, as a wider range of relocation alternatives and faster processing time are offered. This in turn lowers the urgency and need for transport and emergency aid, thus reducing unnecessary costs associated with involuntary relocation. 
-- Cost Reduction and Additional Benefits: Households opting for voluntary relocation will have 80\% coverage and limits for new housing, be provided with financial support in the form of free moving costs (of 4,000 $\varphi$ under Section 4.3.2) and additional relocation expenses coverage (of 2,000 $\varphi$ under Section 4.3.2) as well as supplementary support such as property/goods relocation services.
+- Cost Reduction and Additional Benefits: Households opting for voluntary relocation will have 80% coverage and limits for new housing, be provided with financial support in the form of free moving costs (of 4,000 $\varphi$ under Section 4.3.2) and additional relocation expenses coverage (of 2,000 $\varphi$ under Section 4.3.2) as well as supplementary support such as property/goods relocation services.
 
 Through provision of these benefits we hope to incentivise a greater proportion of individuals at risk to act early to not only reduce costs but also to maintain public safety.  
 
