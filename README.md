@@ -29,8 +29,6 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 
 
 
-Our group is ClimateDynamics
-
 ## Executive summary
 We aim to develop a social insurance program which can provide nationwide coverage against displacement due to natural perils in anticipation to the increasing frequency and severity of catastrophic climate events.
 
@@ -40,6 +38,54 @@ The product is designed to be accessible to all, tailored to meet the diverse ge
 
 
 ## Program design
+
+### Claim requirement & coverage
+
+For citizens of Storslysia to submit a valid claim they must meet the following requirements: 
+- The claim must be lodged within 6 months of the event which caused the loss.
+- Policyholders cannot claim for a natural event which occurs within 72 hours of policy inception.
+- The damage must not be a direct result of negligence to maintain the property or improper installation of pipes/circuitry/heaters etc.
+- Any information disclosed must be full and truthful. This includes information about the extent of the damage, prior claims history and any other relevant facts[^1]. 
+
+[^1]: Adjusters may decline the claim on the grounds of insufficient or false information.
+
+
+
+The social insurance program will cover 50% of the cost for new property, and the rest will come from the owner or private insurance, as well as support for temporary housing. This ensures basic living for households, and low-income households can receive up to 1.5x the coverage. Below is a list of claim coverage, note that the amount is per household unless specified otherwise.
+
+| Coverage Item | Coverage Amount |  Other Conditions |
+| :--- | :--- | :---|
+| New Housing | 50% (up to 150k) | Limits by region, based on mean price |
+| Temporary Housing| up to 1,000/month | This is per person |
+| Living Support| up to 3,000 | For low-income households[^2]|
+| Moving Cost| up to 6,000 | For low-income households |
+
+[^2]:Defined as households earning less than 50% of median income. 
+
+
+### Voluntary relocation
+
+Cost reduction benefits resulting from planned relocation can be categorised into two types:
+
+- Relocation priorities and options: Geographical incentives are provided to affected parties to encourage  voluntary relocation, as a wider range of relocation alternatives and faster processing time are offered. This in turn lowers the urgency and need for transport and emergency aid, thus reducing unnecessary costs associated with involuntary relocation. 
+- Cost Reduction and Additional Benefits: Households opting for voluntary relocation will have 80\% coverage and limits for new housing, be provided with financial support in the form of free moving costs (of 4,000 $\varphi$ under Section 4.3.2) and additional relocation expenses coverage (of 2,000 $\varphi$ under Section 4.3.2) as well as supplementary support such as property/goods relocation services.
+
+Through provision of these benefits we hope to incentivise a greater proportion of individuals at risk to act early to not only reduce costs but also to maintain public safety.  
+
+
+### Program Timeframes
+The model monitoring process will involve monthly reporting focusing on relocation costs and actions whereby every month there will be assessment of program progress and market conditions. Voluntary relocation options may be reduced if there is a labour shortage. Model performance will be reviewed annually and the parameters will be calibrated in line with the current years’ economic and climate data. In the case that actual experience deviates greatly from forecasts we may rebuild the economic and hazard models entirely to better predict aggregate cost. The past program costs and coverage will need to be analysed, inflation and GDP increase will also need to be reflected in coverage amounts and excess limits.
+
+In the long run, every ten years the model will undergo a major overhaul. As climate events be- come increasingly unpredictable globally, new findings will be used to rebuild the technical cost model. Emerging technologies will also help to improve costs and efficiency. Detailed list is as below:
+
+| Timeframe | Actions |  Other Changes |
+| :--- | :--- | :---|
+| 1 Month | Monitor property and construction market <br> Monitor current year's program costs <br> Adjust relocation schedules | National Economic Figures<br>Property/Industry Reports |
+| 1 Year | Annual assessment of program costs/coverage <br> Update Hazard Model <br> Update Economic Model <br> Update program coverage limits/amount | National Economic Figures <br> Legal and Policy Change <br> World Economic Outlook <br> Climate Change Report |
+| 10 Years | Review program coverage/past results <br> Update/Rebuild Economic Model <br> Update/Rebuild Hazard Model | Major Climate Events <br> Tech Improvement |
+
+
+
 
 
 ## Macro-economic, hazard and damage modelling
