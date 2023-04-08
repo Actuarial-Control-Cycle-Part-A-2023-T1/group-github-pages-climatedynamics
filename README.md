@@ -96,9 +96,12 @@ In the long run, every ten years the model will undergo a major overhaul. As cli
 
 ## Macro-economic, hazard and damage modelling
 
+
 ### Macro-economic variables modelling: 
 
-To take account into the effects of inflation and interest rates on property value and damage data, we build a time-series model to project the future inflation. For model selection, we split the historical inflation rates and interest rates into a training period (before Year 2010) and the validation period (after Year 2010). The model with the lowest validation Mean-Square-Error, which is ARIMA(1,1,0), is chosen as our best estimate for future inflaiton rates and interest rates. The other two models, namely AR(1) and the smoothing spline, are used to form our upper scenario (i.e., high inflation rate) and the lower scenario (i.e., low inflation rate), respecitvely. 
+Historical values of inflation and interest rates are provided, and used to construct time-series model to project the future inflation/gdp growth. These values are used to make prediction on property value/damage, gdp and prices of goods and services. Then the projections are adjusted under 4 different emission scenarios, and taking weight average approach for estimates and also extreme scenarios for risk tests.
+
+For model selection, we split the historical inflation rates and interest rates into a training period (before Year 2010) and the validation period (after Year 2010). The model with the lowest validation Mean-Square-Error, which is ARIMA(1,1,0), is chosen as our best estimate for future inflaiton rates and interest rates. The other two models, namely AR(1) and the smoothing spline, are used to form our upper scenario (i.e., high inflation rate) and the lower scenario (i.e., low inflation rate), respecitvely. 
 
 The projections of future inflation rates and interest rates are shown in the following two figures:  
 
@@ -157,6 +160,30 @@ The table below lists the costs associated with relocation for the year 2020, us
 [^3]: Cost estimated using industrial averages for USA states [link](https://www.forbes.com/home-improvement/contractor/cost-to-build-a-house/)
 
 
+
+## Assumptions
+
+### Economic Projection
+
+Due to incompleteness of information, assumptions are made to create forecasts for some of Storslysia’s economic figures:
+*	Property prices increase/decrease according to inflation rate
+*	GDP growth follows same pattern as the bank's 1-year lending rate
+* Regional housing prices are calculated under per capita
+These figures are subjective to various social economic factors including global economy and government intervention etc, and in long term can lead to large difference with real figures.
+
+### Emission Scenarios
+
+We have made assumption that Storslysia’s economy will be affected similar to the global GDP growth forecast under the 4 different emission scenarios. The model predictions are adjusted to reflect emission scenarios individually and calculated the weighted outcome after assigning a weight to each scenario. Different areas in the world will be affected by climate change differently, for example for a coastal region will be heavily impacted by rising sea level (flooding or even permanent inundation) from high emission [8]. If Storslysia is a island country or large amount of economic activities based in coastal region, it won’t likely to have highest GDP growth in SSP5-baselines emission scenarios.
+<p align="center">
+  <img src="Plot_Scenarios.png" >
+  <br> 
+  <em>Figure 3: Emission Scenarios.</em>
+</p>
+
+
+### Timeliness of Quantitative Analysis
+
+
 ## Risk and Risk mitigation
 
 There are two primary categories of risks: quantifiable risks and qualitative risks. The table below presents examples of each type.
@@ -170,4 +197,9 @@ There are two primary categories of risks: quantifiable risks and qualitative ri
 
 
 ## Conclusion
+
+
+
+## Bibliography
+
 
