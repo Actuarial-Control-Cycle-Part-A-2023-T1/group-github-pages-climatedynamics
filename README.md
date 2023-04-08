@@ -26,8 +26,14 @@ This is written in markdown language.
 More information on GitHub Pages can be found [here](https://pages.github.com/)
 ![](Actuarial.gif) -->
 
-![](flood.gif)
 
+
+<p float="left">
+  <img src="/flood.gif"  />
+  <img src="/insurance2.gif" /> 
+</p>
+
+---
 
 ## Executive summary
 We aim to develop a social insurance program which can provide nationwide coverage against displacement due to natural perils in anticipation to the increasing frequency and severity of catastrophic climate events.
