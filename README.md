@@ -120,6 +120,7 @@ Projected hazard events count          |  Projected climate risk index
 
 
 ## Risk and Risk mitigation
+
 There are two primary categories of risks: quantifiable risks and qualitative risks. The table below presents examples of each type.
 | Qualitative Risks | Quantifiable Risks | 
 | :--- | :-------------------------------- | 
