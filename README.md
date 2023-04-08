@@ -68,7 +68,7 @@ The social insurance program will cover 50% of the cost for new property, and th
 Cost reduction benefits resulting from planned relocation can be categorised into two types:
 
 - Relocation priorities and options: Geographical incentives are provided to affected parties to encourage  voluntary relocation, as a wider range of relocation alternatives and faster processing time are offered. This in turn lowers the urgency and need for transport and emergency aid, thus reducing unnecessary costs associated with involuntary relocation. 
-- Cost Reduction and Additional Benefits: Households opting for voluntary relocation will have 80% coverage and limits for new housing, be provided with financial support in the form of free moving costs (of 4,000 $\varphi$) and additional relocation expenses coverage (of 2,000 $\varphi$) as well as supplementary support such as property/goods relocation services.
+- Cost Reduction and Additional Benefits: Households opting for voluntary relocation will have 80% coverage and limits for new housing, be provided with financial support in the form of free moving costs (of Ꝕ4,000) and additional relocation expenses coverage (of Ꝕ2,000) as well as supplementary support such as property/goods relocation services.
 
 Through provision of these benefits we hope to incentivise a greater proportion of individuals at risk to act early to not only reduce costs but also to maintain public safety.  
 
@@ -130,7 +130,7 @@ The projected property damage with and without relocation are shown in Figure 1,
   <em>Figure 1: Property damage before/after relocation.</em>
 </p>
 
-Additionally, we have also calculated the present value of expected cost saving from the reduction in projected property damage after the relocation during the next **10-year horizon**. The present value of the total expected cost saving is **$\varphi$ 6,566,773,052.43**.
+Additionally, we have also calculated the present value of expected cost saving from the reduction in projected property damage after the relocation during the next **10-year horizon**. The present value of the total expected cost saving is **Ꝕ6,566,773,052.43**.
 
 
 ### Relocation Costs
@@ -138,7 +138,7 @@ Additionally, we have also calculated the present value of expected cost saving 
 
 The table below lists the costs associated with relocation for the year 2020, using the values for Region 1 as an example. Please note that these figures will be updated annually based on inflation and the respective rates for the upcoming year. Additionally, the potential cost savings from voluntary relocation are more than 3 times the median household income.
 
-| Related Items | Cost($\varphi) |  Estimation Method | Avoidable? |
+| Related Items | Cost(Ꝕ) |  Estimation Method | Avoidable? |
 | :--- | :--- | :---| :---|
 | New Property Cost | 371,828 | Property value distribution | No |
 | -Additional Construction | 111,939 | 50% of construction costs[^3] | Yes |
