@@ -125,7 +125,7 @@ To calculate the potential economic impact of the relocation program, we assume 
 The projected property damage with and without relocation are shown in Figure 1, under the baseline inflation scenario. The difference between the projected property damage becomes more significant in later projected years, which might be explained by the quadratic growth of hazards frequency and the accumulation effects of inflation rates.   
 
 <p align="center">
-  <img src="https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-climatedynamics/blob/ba47a2f0285bd376b3974561dcdb1e7f1f82ea2a/Projected_cost_BeforeandAfterRelocation.png" >
+  <img src="Projected_cost_BeforeandAfterRelocation.png" >
   <br> 
   <em>Figure 1: Property damage before/after relocation.</em>
 </p>
