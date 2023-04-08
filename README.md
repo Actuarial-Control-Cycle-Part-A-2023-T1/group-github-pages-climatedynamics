@@ -154,6 +154,8 @@ The table below lists the costs associated with relocation for the year 2020, us
 ## Risk and Risk mitigation
 
 There are two primary categories of risks: quantifiable risks and qualitative risks. The table below presents examples of each type.
+
+
 | Qualitative Risks | Quantifiable Risks | 
 | :--- | :-------------------------------- | 
 | **Availability of new properties:** The availability of new properties can be affected by many factors including limited labour, resources, build permits issued (Region 3 permits issued is only 0.32% of properties), which will be a great issue in events of major hazard events. Voluntary relocation is a big part of mitigation, distributing relocation evenly in advance to ease the peak demand, and government can initiate development projects to build relocation properties in mass. | **Catastrophic Hazard Events:** Large flooding and earthquakes can cause thousands of households to force to relocate. Such events are very hard to forecast but becoming more common with climate change. We have modelled the worst scenario and tested the sustainability of program under stress, and there is a very large increase in severity of damage. |
