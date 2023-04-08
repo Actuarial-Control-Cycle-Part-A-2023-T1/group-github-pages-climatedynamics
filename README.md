@@ -118,6 +118,38 @@ Projected hazard events count          |  Projected climate risk index
 
 ## Pricing and cost
 
+Based on the results above, Region 5 is deemed to have the highest risk, while Region 1 has the lowest risk. As a result, our program aims to relocate residents from Region 5 to Region 1.
+
+To calculate the potential economic impact of the relocation program, we assume that all residents from Region 5 are successfully relocated to Region 1. The increase in the exposure in Region 1 will be the cost of constructing new houses to accommodate immigrants from Region 5, which could be approximated as: $\tilde{E}_5=H_5\cdot\bar{V}_1$, where $H_i$ is the number of households in region $i$ and $\bar{V}_i$ as the mean housing value in region $i$. We further assume the climate risk in Region 1 stays the same after relocation (i.e., the expected frequency $\hat{N}_1$ and the expected damage ratio $\hat{d}_1$ stay the same), then the new total property damage in Region 1 after relocation will be: $\tilde{D}_1 = (E_1+\tilde{E}_5)\times \hat{d}_1 \times \hat{N}_1$. And the new total property damage in Region 5 will be zero (i.e., $\tilde{D}_5=0$) as we assume all the residents in Region 5 will move to Region 1.
+
+The projected property damage with and without relocation are shown in Figure 1, under the baseline inflation scenario. The difference between the projected property damage becomes more significant in later projected years, which might be explained by the quadratic growth of hazards frequency and the accumulation effects of inflation rates.   
+
+<p align="center">
+  <img src="https://github.com/Actuarial-Control-Cycle-Part-A-2023-T1/group-github-pages-climatedynamics/blob/ba47a2f0285bd376b3974561dcdb1e7f1f82ea2a/Projected_cost_BeforeandAfterRelocation.png" >
+  <br> 
+  <em>Figure 1: Property damage before/after relocation.</em>
+</p>
+
+Additionally, we have also calculated the present value of expected cost saving from the reduction in projected property damage after the relocation during the next **10-year horizon**. The present value of the total expected cost saving is **$\varphi$ 6,566,773,052.43**.
+
+
+### Relocation Costs
+
+
+The table below lists the costs associated with relocation for the year 2020, using the values for Region 1 as an example. Please note that these figures will be updated annually based on inflation and the respective rates for the upcoming year. Additionally, the potential cost savings from voluntary relocation are more than 3 times the median household income.
+
+| Related Items | Cost($\varphi) |  Estimation Method | Avoidable? |
+| :--- | :--- | :---| :---|
+| New Property Cost | 371,828 | Property value distribution | No |
+| -Additional Construction | 111,939 | 50% of construction costs[^3] | Yes |
+| Replacing Household Goods | 124,272 | 60% of housing costs | Yes |
+| Temporary Housing | 44,064 | | Yes |
+| Moving Costs | 4,000 | Industrial averages for USA states | No |
+| -Additional Moving Costs | 2,000 | 50% of normal costs | Yes |
+| **Avoidable Total** | **282,275** | |
+
+[^3]: Cost estimated using industrial averages for USA states [link](https://www.forbes.com/home-improvement/contractor/cost-to-build-a-house/)
+
 
 ## Risk and Risk mitigation
 
