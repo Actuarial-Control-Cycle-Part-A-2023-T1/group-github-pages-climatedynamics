@@ -29,8 +29,8 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 
 
 <p float="left">
-  <img src="/flood.gif"  />
-  <img src="/insurance2.gif" /> 
+  <img src="flood.gif"  >
+  <img src="insurance2.gif" > 
 </p>
 
 ---
