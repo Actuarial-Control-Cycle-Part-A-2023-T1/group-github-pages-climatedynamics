@@ -26,12 +26,12 @@ This is written in markdown language.
 More information on GitHub Pages can be found [here](https://pages.github.com/)
 ![](Actuarial.gif) -->
 
-
-
 <p float="left">
-  <img src="flood.gif"  >
-  <img src="insurance2.gif" > 
+  <img src="flood.gif" width="49%" />
+  <img src="insurance2.gif" width="49" /> 
 </p>
+
+
 
 ---
 
