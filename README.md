@@ -182,6 +182,7 @@ We have made assumption that Storslysia’s economy will be affected similar to 
 
 
 ### Timeliness of Quantitative Analysis
+The quantitative models are strongly influenced by the past trend and we have assumed a similar long term trend (Refer to Figure 1 for historical inflation and interest rates). However macroeconomic related forecasts (GDP, inflation etc.) are heavily affected by various drivers including global trade, commodity prices and government monetary policies, and should not be relied on long term \cite{economicforecastaccuracy}. This means that the long time frame (10years) prediction of the model will have high uncertainties, and the model should be constantly adjusted each year to stay accurate and up to date.
 
 
 ## Risk and Risk mitigation
@@ -194,6 +195,26 @@ There are two primary categories of risks: quantifiable risks and qualitative ri
 | **Availability of new properties:** The availability of new properties can be affected by many factors including limited labour, resources, build permits issued (Region 3 permits issued is only 0.32% of properties), which will be a great issue in events of major hazard events. Voluntary relocation is a big part of mitigation, distributing relocation evenly in advance to ease the peak demand, and government can initiate development projects to build relocation properties in mass. | **Catastrophic Hazard Events:** Large flooding and earthquakes can cause thousands of households to force to relocate. Such events are very hard to forecast but becoming more common with climate change. We have modelled the worst scenario and tested the sustainability of program under stress, and there is a very large increase in severity of damage. |
 | **Disruption of Work:** Hazard events can cause damage to commercial properties and affect business activities as well, causing people to lose their job temporarily or permanently. In the program plan there will be loss of income help to households with income below a threshold, to help households in poverty or lost income for the duration of relocation. | **Macro-economic variables:** The inflation rate and interest rates could deviate from the baseline assumptions due to policy changes or external shock to the system. To assess the risk from changing macro-economic environment, we have projected the program cost under the high-inflation scenario, the baseline inflation scenario, and a low inflation scenario. | 
 
+
+## Data Limitatiohn and Improvements
+
+### Economic Modelling
+And as only only GDP figures from 2019-2021 are present, the 1 year lending rate are used to predict GDP growth. Having access to historical GDP can help improve the prediction accuracy. And similarly there is no access to historical property prices and construction costs, whilst inflation can be a decent method to estimate price change, they do not always align, for example investment can drive land and property prices up much faster than inflation. Having access to historical data for key affected sectors will improve accuracy of model prediction.
+
+### Cost Estimation through Other Sources
+There are various costs/figures that are estimated through other sources, the estimation are done individually for the 6 regions and come from USA states with comparable GDP per-capita, that the currency has been converted to Storslysia currency when comparing and using the numbers. The list of estimated costs include
+
+*	Construction cost of dwellings
+*	Time taken to construct dwellings
+*	Lifespan of household goods
+* Cost of moving home
+
+For data estimated from other sources, these might not be a very accurate reflection of Storslysia, and can lead to large errors over long time. To gain these numbers and improve on accuracy of predictions, will require research into Storslysia's government or private reports and studies, and if not available yet then arrange studies and surveys into these figures. 
+
+
+### Hazard and Damage Modelling
+
+In this project, we only have access to regional level hazard information. Given that high resolution data is not available, our estimation of property damage could carry substantial uncertainty. For instance, the elevation and structures of individual property could cause significant variation in the actual damage ratio among different properties for flooding events. If damage data with finer resolution is collected in future, we could incorporate more granular information into our modelling to reduce the uncertainty involved. 
 
 
 ## Conclusion
