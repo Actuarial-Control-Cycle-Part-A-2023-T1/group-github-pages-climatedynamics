@@ -159,6 +159,10 @@ The table below lists the costs associated with relocation for the year 2020, us
 
 [^3]: Cost estimated using industrial averages for USA states [link](https://www.forbes.com/home-improvement/contractor/cost-to-build-a-house/)
 
+To factor the initial investment in relocation cost into program cost consideration, we have projected the Net Present Value (NPV) of the relocation project up to the year 2150, with a break-even point in year 2088. Although the payback period of the project is relatively long due to the large initial relocation investment, the cost saving is substantial in the long term due to the quadratic increasing trend.
+
+![image](ProjectedNPVfromRelocationProgram.png)
+
 
 
 ## Assumptions
