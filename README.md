@@ -262,19 +262,26 @@ In this project, we only have access to regional level hazard information. Given
 
 [1] Rachel Abraham & Samantha Allen (2022): How Much Does It Cost To Build A House In 2023? Available
 at https://www.forbes.com/home-improvement/contractor/cost-to-build-a-house/.
+
 [2] Marcus C Christiansen & Andreas Niemeyer (2014): Fundamental definition of the solvency capital re-
 quirement in solvency II. ASTIN Bulletin: The Journal of the IAA 44(3), pp. 501–533.
+
 [3] Chamindi Malalgoda, Dilanthi Amaratunga & Richard Haigh (2014): Challenges in creating a disaster
 resilient built environment. Procedia Economics and Finance 18, pp. 736–744.
+
 [4] Heather McGrath, Ahmad Abo El Ezz & Miroslav Nastev (2019): Probabilistic depth–damage curves for
 assessment of flood-induced building losses. Natural Hazards 97, pp. 1–14.
+
 [5] Bruno Merz, Heidi Kreibich, Reimund Schwarze & Annegret Thieken (2010): Review article" Assessment
 of economic flood damage". Natural Hazards and Earth System Sciences 10(8), pp. 1697–1724.
+
 [6] Masayuki Morikawa (2020): The accuracy of long-term growth forecasts by
 economics researchers. Available at https://cepr.org/voxeu/columns/
 accuracy-long-term-growth-forecasts-economics-researchers.
+
 [7] PROPERTY REGISTRY TEAM (2022): How long does it take to build a house in 2022? Available at https:
 //propertyregistry.com.au/how-long-does-it-take-to-build-a-house/.
+
 [8] UCAR: Climate Change: Regional Impacts. Available at https://scied.ucar.edu/learning-zone/
 climate-change-impacts/regional.
 
