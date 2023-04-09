@@ -199,6 +199,17 @@ There are two primary categories of risks: quantifiable risks and qualitative ri
 | **Availability of new properties:** The availability of new properties can be affected by many factors including limited labour, resources, build permits issued (Region 3 permits issued is only 0.32% of properties), which will be a great issue in events of major hazard events. Voluntary relocation is a big part of mitigation, distributing relocation evenly in advance to ease the peak demand, and government can initiate development projects to build relocation properties in mass. | **Catastrophic Hazard Events:** Large flooding and earthquakes can cause thousands of households to force to relocate. Such events are very hard to forecast but becoming more common with climate change. We have modelled the worst scenario and tested the sustainability of program under stress, and there is a very large increase in severity of damage. |
 | **Disruption of Work:** Hazard events can cause damage to commercial properties and affect business activities as well, causing people to lose their job temporarily or permanently. In the program plan there will be loss of income help to households with income below a threshold, to help households in poverty or lost income for the duration of relocation. | **Macro-economic variables:** The inflation rate and interest rates could deviate from the baseline assumptions due to policy changes or external shock to the system. To assess the risk from changing macro-economic environment, we have projected the program cost under the high-inflation scenario, the baseline inflation scenario, and a low inflation scenario. | 
 
+To assess the sensitivity of our projected program cost, we have performed a scenario analysis of the program cost under different climate change and macroeconomic scenarios. The projections of program cost under the SSP 1 scenario (i.e., the most optimistic scenario regarding to CO2 emission), the SSP 2 scenario (i.e., the medium pathway), and the SSP 5 scenario (i.e., the most pessimistic scenario regarding to CO2 emission), are shown below. 
+
+
+Projected cost under SSP1 (best scenario)          |  Projected cost under SSP2 (medium scenario) | Projected cost under SSP5 (worst scenario)
+:-------------------------:|:-------------------------:|:-------------------------:
+![image](SSP1_ProjectedProgramCost.png)  |  ![image](SSP2_ProjectedProgramCost.png) | ![image](SSP5_ProjectedProgramCost.png)
+
+Under the SSP 1 scenario, the projected program cost under the baseline inflation scenario does not surpass the 10% of national GDP (marked by the red line) in any given year. As for the SSP 2 emission scenario, the projected program cost only reaches the 10% of GDP at the end of the year 2150. However, under the high emission scenario (i.e., SSP 5), the program cost is expected to surpass the 10% of GDP in the middle of the forecasting horizon. This result highlights the view that the increasing damage caused by the high CO2 emission cannot be justified by the fast economic growth.
+
+
+
 
 ## Data Limitatiohn and Improvements
 
@@ -221,7 +232,6 @@ For data estimated from other sources, these might not be a very accurate reflec
 In this project, we only have access to regional level hazard information. Given that high resolution data is not available, our estimation of property damage could carry substantial uncertainty. For instance, the elevation and structures of individual property could cause significant variation in the actual damage ratio among different properties for flooding events. If damage data with finer resolution is collected in future, we could incorporate more granular information into our modelling to reduce the uncertainty involved. 
 
 
-## Conclusion
 
 
 
