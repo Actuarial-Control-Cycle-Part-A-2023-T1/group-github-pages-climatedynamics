@@ -210,6 +210,22 @@ Under the SSP 1 scenario, the projected program cost under the baseline inflatio
 
 
 
+| ClimateScenario | EconomicScenario | ProportionSurpass | ConfidenceLevel | Weight (Climate) | Weight (inflation) | Weighted CI |
+|-----------------|------------------|-------------------|-----------------|------------------|--------------------|-------------|
+| SSP1            | Lower            | 0.00%             | 100.00%         | 10.00%           | 10.00%             | 1.00%       |
+| SSP1            | Base             | 0.00%             | 100.00%         | 10.00%           | 80.00%             | 8.00%       |
+| SSP1            | Upper            | 37.21%            | 62.79%          | 10.00%           | 10.00%             | 0.63%       |
+| SSP2            | Lower            | 0.00%             | 100.00%         | 70.00%           | 10.00%             | 7.00%       |
+| SSP2            | Base             | 0.00%             | 100.00%         | 70.00%           | 80.00%             | 56.00%      |
+| SSP2            | Upper            | 41.86%            | 58.14%          | 70.00%           | 10.00%             | 4.07%       |
+| SSP3            | Lower            | 0.00%             | 100.00%         | 10.00%           | 10.00%             | 1.00%       |
+| SSP3            | Base             | 20.93%            | 79.07%          | 10.00%           | 80.00%             | 6.33%       |
+| SSP3            | Upper            | 48.06%            | 51.94%          | 10.00%           | 10.00%             | 0.52%       |
+| SSP5            | Lower            | 0.00%             | 100.00%         | 10.00%           | 10.00%             | 1.00%       |
+| SSP5            | Base             | 41.09%            | 58.91%          | 10.00%           | 80.00%             | 4.71%       |
+| SSP5            | Upper            | 56.59%            | 43.41%          | 10.00%           | 10.00%             | 0.43%       |
+
+
 
 ## Data Limitatiohn and Improvements
 
