@@ -191,7 +191,7 @@ We have made assumption that Storslysia’s economy will be affected similar to 
 
 
 ### Timeliness of Quantitative Analysis
-The quantitative models are strongly influenced by the past trend and we have assumed a similar long term trend (Refer to Figure 1 for historical inflation and interest rates). However macroeconomic related forecasts (GDP, inflation etc.) are heavily affected by various drivers including global trade, commodity prices and government monetary policies, and should not be relied on long term \cite{economicforecastaccuracy}. This means that the long time frame (10years) prediction of the model will have high uncertainties, and the model should be constantly adjusted each year to stay accurate and up to date.
+The quantitative models are strongly influenced by the past trend and we have assumed a similar long term trend (Refer to Figure 1 for historical inflation and interest rates). However macroeconomic related forecasts (GDP, inflation etc.) are heavily affected by various drivers including global trade, commodity prices and government monetary policies, and should not be relied on long term. This means that the long time frame (10years) prediction of the model will have high uncertainties, and the model should be constantly adjusted each year to stay accurate and up to date.
 
 
 ## Risk and Risk mitigation
