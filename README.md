@@ -112,10 +112,15 @@ Projection of inflation rates          |  Projection of interest rates
 ### Hazard and damage modelling:
 
 Frequency and severity of hazard loss have been modelled separately in our analysis. We have taken a standard approach and used Poisson regression to model hazard frequency since the count of hazard events is a discrete random variable. In particular we chose a Poisson GAM as it outper-
-formed the Poisson GLM with regards to AIC and BIC metrics.
+formed the Poisson GLM with regards to AIC and BIC metrics, which is shown below. 
+
+| Model        | AIC      | BIC      |
+|--------------|----------|----------|
+| Poisson GLM  | 8547.482 | 8680.895 |
+| Poisson GAM  | 8396.522 | 8529.935 |
 
 For severity model we chose to model the damage ratio (the ratio of property damage to exposure) instead of the absolute value of property damage, as dollar value of property damage could be heavily influenced by the market value of the property rather than the inherent severity of the
-peril. To model the damage we fit a zero adjusted Beta distribution as the damage ratio varies between 0 and 1 and the distribution is highly non-symmetric. 
+peril. To model the damage we fit a zero adjusted Beta distribution as the damage ratio varies between 0 and 1 and the distribution is highly non-symmetric
 
 The fitted frequency and damage models specified above are used to generate projections for future hazard events count and damage ratio. As per the figure below, Region 3 has the highest projected events count. To factor both frequency and severity into risk evaluation, we have developed a climate risk index, defined as the product of predicted events count and the damage ratio. Based on the climate risk index, Region 5 has the highest risk in all projected years.
 
@@ -123,7 +128,7 @@ Projected hazard events count          |  Projected climate risk index
 :-------------------------:|:-------------------------:
 ![image](Projected_Hazard_Events_count.png)  |  ![image](Projected_Hazard_risk_index.png)
 
-
+The detailed development steps for the macro-economic models and the hazard models can be found in the Appendix section of the main report [here](ACTL5100_Assignment_Final_GroupClimateDynamics.pdf)
 
 ## Pricing and cost
 
@@ -209,8 +214,11 @@ Projected cost under SSP1 (best scenario)          |  Projected cost under SSP2 
 Under the SSP 1 scenario, the projected program cost under the baseline inflation scenario does not surpass the 10% of national GDP (marked by the red line) in any given year. As for the SSP 2 emission scenario, the projected program cost only reaches the 10% of GDP at the end of the year 2150. However, under the high emission scenario (i.e., SSP 5), the program cost is expected to surpass the 10% of GDP in the middle of the forecasting horizon. This result highlights the view that the increasing damage caused by the high CO2 emission cannot be justified by the fast economic growth.
 
 
+The proportion of times that the projected program cost will exceed the 10% of national GDP under each combination of climate and macro-economic scenarios is shown in the table below (under the column ProportionSurpass). Our confidence level that the 10% of GDP constraint will not be surpassed is then one minus the exceeding proportion. As per the table, our confidence level decreases when either the inflation rate or CO2 emission is high. 
 
-| ClimateScenario | EconomicScenario | ProportionSurpass | ConfidenceLevel | Weight (Climate) | Weight (inflation) | Weighted CI |
+Additionally, we have weighted each climate and macro-economic scenario to derive the weighted confidence, where the weights are determined judgmentally to reflect our perceptions of future environment. Our final confidence level is then a weighted average of the confidence level under different scenarios, which is **90.69%**. 
+
+| Climate Scenario | Economic Scenario | Proportion Surpass | Confidence Level | Weight (Climate) | Weight (inflation) | Weighted confidence |
 |-----------------|------------------|-------------------|-----------------|------------------|--------------------|-------------|
 | SSP1            | Lower            | 0.00%             | 100.00%         | 10.00%           | 10.00%             | 1.00%       |
 | SSP1            | Base             | 0.00%             | 100.00%         | 10.00%           | 80.00%             | 8.00%       |
@@ -246,7 +254,6 @@ For data estimated from other sources, these might not be a very accurate reflec
 ### Hazard and Damage Modelling
 
 In this project, we only have access to regional level hazard information. Given that high resolution data is not available, our estimation of property damage could carry substantial uncertainty. For instance, the elevation and structures of individual property could cause significant variation in the actual damage ratio among different properties for flooding events. If damage data with finer resolution is collected in future, we could incorporate more granular information into our modelling to reduce the uncertainty involved. 
-
 
 
 
