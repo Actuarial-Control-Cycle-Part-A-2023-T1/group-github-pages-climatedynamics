@@ -5,27 +5,6 @@
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-f4981d0f882b2a3f0472912d15f9806d57e124e0fc890972558857b51b24a6f9.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=10712948) -->
 
 
-<!--- _"Tell me and I forget. Teach me and I remember. Involve me and I learn" - Benjamin Franklin_
-
----
-
-### Congrats on completing the [2023 SOA Research Challenge](https://www.soa.org/research/opportunities/2023-student-research-case-study-challenge/)!
-
->Now it's time to build your own website to showcase your work.  
->To create a website on GitHub Pages to showcase your work is very easy.
-
-This is written in markdown language. 
->
-* Click [link](https://classroom.github.com/a/elzutNYu) to accept your group assignment.
-
-
-#### Follow the [guide doc](Doc1.pdf) to submit your work. 
----
->Be creative! Feel free to link to embed your [data](hazard-event-data.csv), [code](sample-data-clean.ipynb), [image](unsw.png) here
-
-More information on GitHub Pages can be found [here](https://pages.github.com/)
-![](Actuarial.gif) -->
-
 <p float="left">
   <img src="flood.gif" width="49%" />
   <img src="insurance2.gif" width="49%" /> 
@@ -35,7 +14,7 @@ More information on GitHub Pages can be found [here](https://pages.github.com/)
 
 ---
 
-## Executive summary
+## Executive Summary
 We aim to develop a social insurance program which can provide nationwide coverage against displacement due to natural perils in anticipation to the increasing frequency and severity of catastrophic climate events.
 
 The product is designed to be accessible to all, tailored to meet the diverse geographical risks presented by Storslysia's six regions. In our design we focus on accurately forecasting future events so that Storslysia's residents may be relocated promptly, minimising potential costs associated with accommodation, lost of personal effects and psychological pressure. Based on our results, we have found that the relocation program could substantially reduce the economic cost of property damages over the long-term horizon. Additionally, we are 90.69% confident that the program cost will not exceed 10% of the national GDP in any given year by weighting different climate and macro-economic scenarios. 
@@ -43,9 +22,9 @@ The product is designed to be accessible to all, tailored to meet the diverse ge
 
 
 
-## Program design
+## Program Design
 
-### Claim requirement & coverage
+### Claim Requirement & Coverage
 
 For citizens of Storslysia to submit a valid claim they must meet the following requirements: 
 - The claim must be lodged within 6 months of the event which caused the loss.
@@ -69,7 +48,7 @@ The social insurance program will cover 50% of the cost for new property, and th
 [^2]:Defined as households earning less than 50% of median income. 
 
 
-### Voluntary relocation
+### Voluntary Relocation
 
 Cost reduction benefits resulting from planned relocation can be categorised into two types:
 
@@ -79,7 +58,7 @@ Cost reduction benefits resulting from planned relocation can be categorised int
 Through provision of these benefits we hope to incentivise a greater proportion of individuals at risk to act early to not only reduce costs but also to maintain public safety.  
 
 
-### Program timeframes
+### Program Timeframes
 The model monitoring process will involve monthly reporting focusing on relocation costs and actions whereby every month there will be assessment of program progress and market conditions. Voluntary relocation options may be reduced if there is a labour shortage. Model performance will be reviewed annually and the parameters will be calibrated in line with the current years’ economic and climate data. In the case that actual experience deviates greatly from forecasts we may rebuild the economic and hazard models entirely to better predict aggregate cost. The past program costs and coverage will need to be analysed, inflation and GDP increase will also need to be reflected in coverage amounts and excess limits.
 
 In the long run, every ten years the model will undergo a major overhaul. As climate events be- come increasingly unpredictable globally, new findings will be used to rebuild the technical cost model. Emerging technologies will also help to improve costs and efficiency. Detailed list is as below:
@@ -94,10 +73,10 @@ In the long run, every ten years the model will undergo a major overhaul. As cli
 
 
 
-## Macro-economic, hazard and damage modelling
+## Macro-economic, Hazard and Damage Modelling
 
 
-### Macro-economic variables modelling: 
+### Macro-economic Variables Modelling: 
 
 Historical values of inflation and interest rates are provided, and used to construct time-series model to project the future inflation/gdp growth. These values are used to make prediction on property value/damage, gdp and prices of goods and services. Then the projections are adjusted under 4 different emission scenarios, and taking weight average approach for estimates and also extreme scenarios for risk tests.
 
@@ -109,7 +88,7 @@ Projection of inflation rates          |  Projection of interest rates
 :-------------------------:|:-------------------------:
 ![image](Inflation_rates_projections.png)  |  ![image](InterestRate_projections.png)
 
-### Hazard and damage modelling:
+### Hazard and Damage Modelling:
 
 Frequency and severity of hazard loss have been modelled separately in our analysis. We have taken a standard approach and used Poisson regression to model hazard frequency since the count of hazard events is a discrete random variable. In particular we chose a Poisson GAM as it outper-
 formed the Poisson GLM with regards to AIC and BIC metrics, which is shown below. 
@@ -130,7 +109,7 @@ Projected hazard events count          |  Projected climate risk index
 
 The detailed development steps for the macro-economic models and the hazard models can be found in the Appendix section of the main report [here](ACTL5100_Assignment_Final_GroupClimateDynamics.pdf)
 
-## Pricing and cost
+## Pricing and Cost
 
 Based on the results above, Region 5 is deemed to have the highest risk, while Region 1 has the lowest risk. As a result, our program aims to relocate residents from Region 5 to Region 1.
 
@@ -141,7 +120,7 @@ The projected property damage with and without relocation are shown in Figure 1,
 <p align="center">
   <img src="Projected_cost_BeforeandAfterRelocation.png" >
   <br> 
-  <em>Figure 1: Property damage before/after relocation.</em>
+  <em>Figure 1: Property damage before/after relocation</em>
 </p>
 
 Additionally, we have also calculated the present value of expected cost saving from the reduction in projected property damage after the relocation during the next **10-year horizon**. The present value of the total expected cost saving is **Ꝕ6,566,773,052.43**.
@@ -166,7 +145,13 @@ The table below lists the costs associated with relocation for the year 2020, us
 
 To factor the initial investment in relocation cost into program cost consideration, we have projected the Net Present Value (NPV) of the relocation project up to the year 2150, with a break-even point in year 2088. Although the payback period of the project is relatively long due to the large initial relocation investment, the cost saving is substantial in the long term due to the quadratic increasing trend.
 
-![image](ProjectedNPVfromRelocationProgram.png)
+
+<p align="center">
+  <img src="ProjectedNPVfromRelocationProgram.png" >
+  <br> 
+  <em>Figure 2: Projected NPV for relocation program</em>
+</p>
+
 
 
 
@@ -186,7 +171,7 @@ We have made assumption that Storslysia’s economy will be affected similar to 
 <p align="center">
   <img src="Plot_Scenarios.png" >
   <br> 
-  <em>Figure 3: Emission Scenarios.</em>
+  <em>Figure 3: Emission Scenarios</em>
 </p>
 
 
@@ -194,7 +179,7 @@ We have made assumption that Storslysia’s economy will be affected similar to 
 The quantitative models are strongly influenced by the past trend and we have assumed a similar long term trend (Refer to Figure 1 for historical inflation and interest rates). However macroeconomic related forecasts (GDP, inflation etc.) are heavily affected by various drivers including global trade, commodity prices and government monetary policies, and should not be relied on long term. This means that the long time frame (10years) prediction of the model will have high uncertainties, and the model should be constantly adjusted each year to stay accurate and up to date.
 
 
-## Risk and Risk mitigation
+## Risk and Risk Mitigation
 
 There are two primary categories of risks: quantifiable risks and qualitative risks. The table below presents examples of each type.
 
@@ -235,7 +220,7 @@ Additionally, we have weighted each climate and macro-economic scenario to deriv
 
 
 
-## Data Limitatiohn and Improvements
+## Data Limitation and Improvements
 
 ### Economic Modelling
 And as only only GDP figures from 2019-2021 are present, the 1 year lending rate are used to predict GDP growth. Having access to historical GDP can help improve the prediction accuracy. And similarly there is no access to historical property prices and construction costs, whilst inflation can be a decent method to estimate price change, they do not always align, for example investment can drive land and property prices up much faster than inflation. Having access to historical data for key affected sectors will improve accuracy of model prediction.
